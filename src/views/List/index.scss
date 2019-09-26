@@ -1,0 +1,303 @@
+#list{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    .list-head{
+        width: 100%;
+        height: 3.125rem;
+        background: #000;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            text-align: center;
+        }
+        div:nth-child(1){
+            width: 20%;
+            height: 60%;
+            font-size: 1.4375rem;
+        }
+        div:nth-child(2){
+            width: 80%;
+            height: 60%;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+        div:nth-child(3){
+            width: 20%;
+            height: 60%;
+            font-size: 1.175rem;
+        }
+    }
+    .list-phone{
+        width: 100%;
+        height: 100%;
+        ul{
+            width: 100%;
+            height: 19.3125rem;
+            list-style:none;
+        }
+        li{
+            border-bottom:1px solid #dbdbdb;
+        }
+        li:nth-child(1){
+            width: 100%;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            h3{
+                width: 15%;
+                height: 100%;
+                text-align: center;
+                line-height: 2.5rem;
+                color: #666;
+            }
+        }
+        li:nth-child(2){
+            width: 100%;
+            height: 8.375rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img{
+                width: 95%;
+                height: 85%;
+            }
+        }
+        li:nth-child(3){
+            width: 100%;
+            height: 4.3125rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div:nth-child(1){
+                width: 40%;
+                height: 50%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 2.5625rem;
+                    height: 2.5625rem;
+                }
+                span{
+                     flex: 1;
+                    font-weight: 600;
+                    color: rgba(0,0,0,.8);
+                }
+            }
+            div:nth-child(2){
+                width: 20%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 700;
+                color: rgba(0,0,0,.8);
+                font-size: 1.125rem;
+            }
+
+        }
+        li:nth-child(4){
+            width: 100%;
+            height: 4.3125rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div:nth-child(1){
+                width: 40%;
+                height: 50%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                img{
+                    width: 2.5625rem;
+                    height: 2.5625rem;
+                }
+                span{
+                    flex: 1;
+                    font-weight: 600;
+                    color: rgba(0,0,0,.8);
+                }
+            }
+            div:nth-child(2){
+                width: 20%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 700;
+                color: rgba(0,0,0,.8);
+                font-size: 1.125rem;
+            }
+
+        }
+    }
+    .list-phoneParts{
+        width: 100%;
+        height: 100%;
+        .list-phoneParts-title{
+            width: 100%;
+            height: 2.5rem;
+            border-bottom:1px solid #dbdbdb;
+            h3{
+                width: 20%;
+                height: 100%;
+                text-align: center;
+                line-height: 2.5rem;
+                color: #666;
+            }
+        }
+        .list-phoneParts-img{
+                width: 100%;
+                height: 8.375rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom:1px solid #dbdbdb;
+                img{
+                    width: 95%;
+                    height: 90%;
+                }
+        }
+        ul{
+            width: 100%;
+            height: 21.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top:1rem;
+            li{
+                width: 29%;
+                height: 40%;
+                div:nth-child(1){
+                    width: 100%;
+                    height: 80%;
+                    border:1px solid #dbdbdb;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                div:nth-child(2){
+                    width: 100%;
+                    height: 20%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    text-align: center;
+                    line-height:  1.59rem;
+                }
+            }
+        }
+    }
+    .list-special{
+        width: 100%;
+        height: 19.3125rem;
+        h3{
+            width: 100%;
+            height: 2.5rem;
+            margin:0 auto;
+            line-height: 2.5rem;
+            color: #666;
+            border-bottom:1px solid #dbdbdb;
+        }
+        .list-special-img{
+            width: 100%;
+            height: 8.375rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom:1px solid #dbdbdb;
+            img{
+                width: 95%;
+                height: 90%;
+            }
+    }
+    ul{
+        width: 100%;
+        height: 8.625rem;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 49%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border:1px solid #dbdbdb;
+            img{
+                width: 20%;
+                height: 80%;
+            }
+            span{
+                width: 50%;
+                height: 40%;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            i{
+                font-size: 1.2rem;
+            }
+        }
+        li:nth-child(1){
+            border-left:none;
+            border-right:none;
+            border-bottom:none;
+        }
+        li:nth-child(2){
+            border-right:none;
+            border-bottom:none;
+        }
+        li:nth-child(3){
+            border-left:none;
+            border-right:none;
+            border-bottom:none;
+        }
+        li:nth-child(4){
+            border-right:none;
+            border-bottom:none;
+        }
+    }
+    }
+    .definedBox{
+        width: 100%;
+        height: 3.375rem;
+        
+    }
+    .list-modll{
+        width: 100%;
+        height: 100%;
+        .nav{
+            width: 100%;
+            height: 37.5rem;
+            background: #262626;
+
+            z-index: 10;
+        }
+        .nav li{
+            width: 102px;
+            height: 81px;
+            float: left;
+            border-right:1px solid #888;
+            border-top:1px solid #888;
+            border-bottom: 1px solid #888;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .nav li i{
+            font-size:25px;
+            color:#ddd;
+        }
+        .nav li p{
+            color:#ddd;
+            font-size:12px;
+        }
+    }
+}
